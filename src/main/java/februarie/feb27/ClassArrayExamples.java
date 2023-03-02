@@ -1,4 +1,4 @@
-package main.java.februarie.feb27;
+package februarie.feb27;
 
 public class ClassArrayExamples
 {

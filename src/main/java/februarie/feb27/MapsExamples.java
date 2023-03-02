@@ -1,4 +1,4 @@
-package main.java.februarie.feb27;
+package februarie.feb27;
 
 import java.util.Collection;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package main.java.februarie.feb13;
+package februarie.feb13;
 
 public class Car {
 

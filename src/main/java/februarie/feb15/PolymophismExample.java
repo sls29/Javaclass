@@ -1,4 +1,4 @@
-package main.java.februarie.feb15;
+package februarie.feb15;
 
 import java.util.Scanner;
 

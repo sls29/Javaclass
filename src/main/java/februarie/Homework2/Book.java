@@ -5,7 +5,7 @@
  * @version 1.0
  */
 
-package main.java.februarie.Homework2;
+package februarie.Homework2;
 
 /**
  @param: bookName, totalPage;

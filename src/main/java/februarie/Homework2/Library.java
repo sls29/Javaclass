@@ -4,7 +4,7 @@
  * @author Yours trully
  * @version 1.0
  */
-package main.java.februarie.Homework2;
+package februarie.Homework2;
 
 //class Library
 public class Library {

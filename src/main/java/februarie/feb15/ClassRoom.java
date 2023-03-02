@@ -1,4 +1,4 @@
-package main.java.februarie.feb15;
+package februarie.feb15;
 
 public class ClassRoom {
     public static void main(String[] args) {
