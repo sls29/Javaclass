@@ -20,14 +20,14 @@ public class Library {
         Novel book2 = new Novel("First Novel", 334, "Science Fiction", 16);
         Novel book3 = new Novel("Second Novel", 556, "Romance", 18);
 
-        List<Book> Books = new LinkedList<Book>();
+        List<Book> Books = new LinkedList<>();
 
         Books.add(book1);
         Books.add(book2);
         Books.add(book3);
 
-        for(int i = 0; i < Books.size(); i++){
-            System.out.println(Books.get(i));
+        for (Book book : Books) {
+            System.out.println(book);
         }
 
         Books.remove(book1);
