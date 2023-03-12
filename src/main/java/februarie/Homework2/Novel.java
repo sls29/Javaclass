@@ -42,6 +42,6 @@ public class Novel extends Book {
     //toString() method to print info about the novel
     @Override
     public String toString(){
-         return(super.toString() + " and it is a " + bookType + " novel recomanded for people older then " + ageRating);
+         return(super.toString() + " and it is a " + bookType + " novel recommended for people older then " + ageRating);
     }
 }

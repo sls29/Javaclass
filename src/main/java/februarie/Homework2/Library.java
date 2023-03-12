@@ -6,35 +6,34 @@
  */
 package februarie.Homework2;
 
+import java.util.*;
+
 //class Library
 public class Library {
 
     public static void main(String[] args) {
 
-    System.out.println(""); //rand liber
+        System.out.println(" "); //empty row
 
-    // define and list new objects
-    Album book1 = new Album("First Album", 223, "best");
-    System.out.println(book1.toString());
+        // define new books
+        Album book1 = new Album("First Album", 223, "best");
+        Novel book2 = new Novel("First Novel", 334, "Science Fiction", 16);
+        Novel book3 = new Novel("Second Novel", 556, "Romance", 18);
 
-    Novel book2 = new Novel("First Novel", 334, "Science Fiction", 16);
-    System.out.println(book2.toString());
+        List<Book> Books = new LinkedList<Book>();
 
-    Novel book3 = new Novel("Second Novel", 556, "Romance", 18);
-    System.out.println(book3.toString());
+        Books.add(book1);
+        Books.add(book2);
+        Books.add(book3);
 
-    System.out.println(" "); //rand liber
+        for(int i = 0; i < Books.size(); i++){
+            System.out.println(Books.get(i));
+        }
 
-    // call deleteAlbum() and deleteNovel(). Both methods clears objects attributes (null and zero)
-    book1.deleteAlbum();
-    book2.deleteNovel();
-    book3.deleteNovel();
+        Books.remove(book1);
+        Books.remove(book2);
+        Books.remove(book3);
 
-    System.out.println(book1.toString());
-    System.out.println(book2.toString());
-    System.out.println(book3.toString());
-
-    System.out.println("");
-    System.out.println(" Eh, ...merge?");
+        System.out.println(Books);
     }
 }
