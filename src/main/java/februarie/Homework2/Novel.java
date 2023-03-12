@@ -17,8 +17,8 @@ public class Novel extends Book {
     String bookType;
     int ageRating;
     //the Novel class has one constructor
-     public Novel(String bookName, int totalPage, String bookType, int ageRating) {
-         super(bookName, totalPage);
+     public Novel(String bookName, int totalPages, String bookType, int ageRating) {
+         super(bookName, totalPages);
 
          this.bookType = bookType;
          this.ageRating = ageRating;

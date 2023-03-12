@@ -14,30 +14,30 @@ package februarie.Homework2;
 public class Book {
     // the Book class has two fields
     public String bookName;
-    public int totalPage;
+    public int totalPages;
 
     //the Book class has one constuctor
-    public Book(String bookName, int totalPage) {
+    public Book(String bookName, int totalPages) {
         this.bookName = bookName;
-        this.totalPage = totalPage;
+        this.totalPages = totalPages;
     }
 
     //the Book class has three methods
     //add new book
     public void addNewBook( String novelName, int number) {
         bookName = novelName;
-        totalPage = number;
+        totalPages = number;
     }
 
     //method to delete a book
     public void deleteBook(){
         bookName = null;
-        totalPage = 0;
+        totalPages = 0;
     }
 
     //toString() method to print info about the book
     public String toString() {
-        return (bookName + " has " + totalPage + " pages ");
+        return (bookName + " has " + totalPages + " pages ");
     }
 }
 

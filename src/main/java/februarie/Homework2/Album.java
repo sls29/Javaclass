@@ -19,8 +19,8 @@ class Album extends Book {
     public String pictureQuality;
 
     //the Book class has one constuctor
-    public Album(String bookName, int totalPage, String pictureQuality){
-        super(bookName, totalPage);
+    public Album(String bookName, int totalPages, String pictureQuality){
+        super(bookName, totalPages);
 
         this.pictureQuality = pictureQuality;
     }

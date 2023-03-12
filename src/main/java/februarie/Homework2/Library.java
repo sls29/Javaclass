@@ -51,6 +51,6 @@ public class Library {
         System.out.println("--------------------------------");
         System.out.println("The following books are in the Library");
         System.out.println(Books);
-        System.out.println("Library is empty");
+        System.out.println("The Library is empty");
     }
 }
